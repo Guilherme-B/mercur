@@ -6,7 +6,7 @@ import { AlgoliaEvents, IndexType } from '@mercurjs/framework'
 import {
   filterProductsByStatus,
   findAndTransformAlgoliaProducts
-} from '../subscribers/utils'
+} from './utils'
 
 export default async function productsChangedHandler({
   event,

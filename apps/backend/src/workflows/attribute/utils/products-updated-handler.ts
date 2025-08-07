@@ -8,7 +8,7 @@ import productAttributeValue from '../../../links/product-attribute-value'
 import {
   createAttributeValueWorkflow,
   deleteAttributeValueWorkflow
-} from '../../../workflows/attribute/workflows'
+} from '../workflows'
 
 export const productsUpdatedHookHandler = async ({
   products,
